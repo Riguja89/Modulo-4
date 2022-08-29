@@ -43,3 +43,5 @@ SELECT a.first_name, a.last_name, COUNT(*) AS total_Roles
 FROM roles r JOIN actors a
 ON a.id=r.actor_id GROUP BY a.id ORDER BY total_Roles DESC LIMIT 100;
 
+-- Bottom of the Barrel, Cuantas películas tiene IMDB por género? Ordená la lista por el género menos popular.
+SELECT 

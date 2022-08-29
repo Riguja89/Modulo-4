@@ -3,7 +3,7 @@ const morgan = require('morgan');
 const { db, Op, Player, Team, PlayerTeam } = require('./db.js');
 
 const server = express();
-
+exclude
 server.use(express.json());
 
 server.use(morgan('dev'));
